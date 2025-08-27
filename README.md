@@ -30,6 +30,8 @@ Download the [latest release](https://github.com/zhbjsh/homeassistant-ssh/releas
 
 ## Device setup
 
+> **_NOTE:_** Ensure that the device you are trying to connect does not block ICMP/Ping requests. Otherwise, the plugin will assume the host is offline and will not continue configuring the new device.
+
 Click on the _Add Integration_ button in _Settings_ -> _Devices & Services_ and select the _SSH_ integration.
 
 ##### Authentication
